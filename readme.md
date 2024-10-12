@@ -1,7 +1,7 @@
 
-# Vodex - FastAPI CRUD Application
+# StockClock - FastAPI CRUD Application
 
-**Vodex** is a simple CRUD (Create, Read, Update, Delete) application built with **FastAPI** and **MongoDB**. It supports two primary entities:
+**StockClock** is a simple CRUD (Create, Read, Update, Delete) application built with **FastAPI** and **MongoDB**. It supports two primary entities:
 - **Items**: Manages inventory items with attributes like `name`, `email`, `item_name`, `quantity`, and `expiry_date`.
 - **Clock-In Records**: Handles user clock-in records, storing `email`, `location`, and the time of clock-in.
 
@@ -17,7 +17,7 @@ The project demonstrates best practices for organizing FastAPI applications by s
 ## Project Structure
 
 ```
-vodex/
+StockClock/
 │
 ├── app/
 │   ├── __init__.py
@@ -49,7 +49,7 @@ Ensure you have the following installed:
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd vodex
+   cd StockClock
    ```
 
 2. **Create a virtual environment**:
